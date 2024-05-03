@@ -1,3 +1,5 @@
+import math
+
 # String Data type
 
 #literal assignment
@@ -89,4 +91,45 @@ myvalue = True
 x = bool(False)
 print(type(x)) 
 print(isinstance(myvalue, bool)) 
+
+# Numeric data types
+
+# integer type 
+price = 100
+best_price = int(80)
+print(type(price))
+print(isinstance(best_price, int))
+
+# float type
+gpa = 3.24
+y = float(1.14)
+print(type(gpa))
+
+# complex type 
+comp_value = 5+3j
+print(type(comp_value))
+print(comp_value.real)
+print(comp_value.imag)
+
+# Built-in Function for the numbers
+
+print(abs(gpa))
+print(abs(gpa * -1))
+
+print(round(gpa))
+
+print(round(gpa, 1))
+
+print(math.pi)
+print(math.sqrt(64))
+print(math.ceil(gpa))
+print(math.floor(gpa))
+
+# Casting a string to a number
+zipcode = "10270"
+zip_value = int(zipcode)
+print(zip_value)
+
+# Error if you attempt to cast incorrect data
+#zip_value = int("New York")
 
