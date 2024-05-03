@@ -1,7 +1,7 @@
 # String Data type
 
 #literal assignment
-first = 'Nuttarpoz'
+first = 'Nuttarponz'
 last = 'Yakathurm'
 
 #แสดง first เท่ากันกับ ประเภท str
@@ -64,5 +64,20 @@ print(len(multiline))
 print(len(multiline.strip()))
 print(len(multiline.lstrip()))
 print(len(multiline.rstrip()))
+
+# Build Menu
+title = "menu".upper()
+print(title.center(20, "="))
+print("Coffee".ljust(16, ".") + "$1".rjust(4))
+print("Muffin ".ljust(16, ".") + "$3".rjust(4))
+print("CheeseBurger".ljust(16, ".") + "$5".rjust(4))
+
+print("")
+
+# string index values
+print(first[1])
+print(first[-1])
+print(first[0:-1])
+print(first[0:])
 
 
