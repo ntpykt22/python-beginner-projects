@@ -80,4 +80,13 @@ print(first[-1])
 print(first[0:-1])
 print(first[0:])
 
+# Some methods return boolean data
+print(first.startswith("N"))
+print(first.endswith("Z"))
+
+# Boolean data type
+myvalue = True 
+x = bool(False)
+print(type(x)) 
+print(isinstance(myvalue, bool)) 
 
